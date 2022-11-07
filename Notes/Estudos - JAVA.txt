@@ -1,0 +1,15 @@
+﻿JAVA - Aulas Iniciais
+
+
+# Comandos grandes?
+# O código gerado pelo java não é um executável na máquina:
+        > Bytecode: código gerado pelo compilador java
+        > Pode ser lido por qualquer JVM em qualquer S.O.
+        > Uma compilação produz várias execuções
+        > Write One, Run Anywhere (WORA)
+
+
+# Lançamento focado em pequenas aplicações web (applets) -> Anos 1990
+# Objetivo: Transformar o browser para não apenas renderizar HTML, mas também realizar operações avançadas.
+# Desenvolvimento de aplicações do lado do servidor que deram sucesso ao java.
+#
