@@ -1,3 +1,18 @@
 Java - Prática
 
+package --> classe --> main
+
+Atalhos: 
+-> psvm: public static void main(String[] args)
+-> sout: System.out.println()
+
+CamelCase 
+-> Letra maiuscula: classe.
+-> Letra minuscula em CamelCase: atributo, variavel, parametro, método.
+-> Somente em letra minuscula: nome do pacote.
+-> Somente letra maiuscula: constantes.
+
+APIs -> Adicionar pacotes
+
+Swing: Criar interface grafica para janelas.
 
