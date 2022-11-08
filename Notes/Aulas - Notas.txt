@@ -30,5 +30,4 @@ realizar operações avançadas.
    -> Interpretador: Converte o bytecode do JAVA em linguagem de máquina.
    -> Gerenciador de Mem.: Vai gerenciar a memória da VM.
    -> JIT Compiler: Compilador Just in Time melhora a performace da JVM.
-
  >> Libs
