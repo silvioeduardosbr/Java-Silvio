@@ -49,3 +49,8 @@ estao conectados indiretamente a internet, atraves do provedor.
 -> Protocolo de comunicação.
 -> Comunicação: hospedar a aplicação em alguma máquina/porta e chamar endpoints
 -> Endpoints: 
+
+
+# SOAP - Simple Object Acesso Protocol
+-> Protocolo de comunicação usando XML
+-> 
