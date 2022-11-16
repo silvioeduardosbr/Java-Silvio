@@ -1,0 +1,33 @@
+﻿JAVA - Aulas Iniciais
+
+# Comandos grandes?
+# Lançamento focado em pequenas aplicações web (applets) -> Anos 1990
+# Objetivo: Transformar o browser para não apenas renderizar HTML, mas também 
+realizar operações avançadas.
+# Desenvolvimento de aplicações do lado do servidor que deram sucesso ao java.
+
+# O código gerado pelo java não é executável na máquina:
+        > É um bytecode: código gerado pelo compilador java para a JVM.
+        > Pode ser lido por qualquer JVM em qualquer S.O.
+        > Uma compilação na VM produz várias execuções
+        > Write One, Run Anywhere (WORA)
+
+# JDK - Java Dev Kit #
+ >> Para usuários que pretendendem desenvolver apps em java.
+ >> Já vem com o JRE (JVM e Libs)
+ >> Java Lang
+ >> Java Tools
+   -> JavaC: Compilador que transforma o source em bytecode java.
+   -> Debugger: Debugador java
+   -> APIs. 
+>> IDE (Opcional)
+
+# JRE - Java Runtime Environment #
+ >> Para usuários que apenas querem usar o java na sua maquina.
+ >> JVM
+   -> Loader: Carrega o Bytecode na memória da JVM.
+   -> Verificador: Verifica se o bytecode pode ser executado na JVM.
+   -> Interpretador: Converte o bytecode do JAVA em linguagem de máquina.
+   -> Gerenciador de Mem.: Vai gerenciar a memória da VM.
+   -> JIT Compiler: Compilador Just in Time melhora a performace da JVM.
+ >> Libs

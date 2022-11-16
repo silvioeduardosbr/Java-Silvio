@@ -1,0 +1,56 @@
+Introdução a Serviços Web com REST - 08/11/2022 (SU)
+
+# Internet
+-> Conexão entre dois ou mais computadores formando uma grande
+rede de computadores;
+-> Infraestrutura que torna a Web possível
+-> É útil para possibilitar a conexão entre computadores
+
+# Servidor
+-> Computador especial conectado a Internet
+-> Endereço de IP único, nao trivial -> dá-se um nome (abc.com)
+-> Computadores pessoais não são servidores, são cllientes, pois 
+estao conectados indiretamente a internet, atraves do provedor.
+-> Servidor está conectado diretamente a internet.*
+-> Armazenam arquivos web - HMTL, estilos, imagens e disponibiliza aos cllientes
+>> Endereço de IP: identifica qual máquina corresponde ao serviço buscado
+>> Portas: 
+
+# Web
+-> Conjunto de hipermídia conectados pela Internet;
+-> URL: protocolo >> subdomínio >> domínio >> porta >> path >> query >> parametros >> âncora
+>> EX:   (https)  :// (www) . (jesielviana.com):(443)/myfile.html?id=12345#section
+
+# DNS - Domain Name System
+-> Listas de Endereços de IP reais que coorrespondem aos domínios
+
+# Http -> protocolo de comunicação entre os clientes e servidores
+# Request -> requisitar algo ao servidores
+# Response -> resposta de um servidor a um Request
+# Https -> camada extra de segurança, que permite que os dados sejam criptografados durante o Envio.
+
+-> 100 - 199: Respostas de informação
+-> 200 - 299: respostas de sucesso
+-> 300 - 399: Redirecionamentos
+(...) 
+
+# Envio de informação
+-> Pacotes de rede são partes do conteudo enviado pela Web;
+-> Roteador: direciona os pacotes ao destino correto;
+
+# Services
+-> Uma aplicação que pode ser integrado a uma aplicação
+-> Funcionalidades análogas que podem ser reaproveitadas em outros projetos
+-> Terceiriza uma feature para outras aplicações
+
+# Web Services
+-> Serviços na Web
+-> Mesma função com tecnologias diferentes
+-> Protocolo de comunicação.
+-> Comunicação: hospedar a aplicação em alguma máquina/porta e chamar endpoints
+-> Endpoints: 
+
+
+# SOAP - Simple Object Acesso Protocol
+-> Protocolo de comunicação usando XML
+-> 
