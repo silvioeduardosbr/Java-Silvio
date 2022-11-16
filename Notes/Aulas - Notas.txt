@@ -31,3 +31,26 @@ realizar operações avançadas.
    -> Gerenciador de Mem.: Vai gerenciar a memória da VM.
    -> JIT Compiler: Compilador Just in Time melhora a performace da JVM.
  >> Libs
+
+# Tipos Primitivos
+    // inteiros
+    byte letras = 127; // inteiro de 1 byte -> max: 127
+    short valor = 32767; // inteiro de 2 bytes -> max: 32 767
+    int anos = 2147483; // inteiro de 4 bytes -> max: 2 147 483
+    long val = 999999999; // inteiro de 8 bytes -> 2^63
+    
+    // reais
+    float sal = 1825.54f; // float de 4 bytes -> 3.4e^38
+    double altura = 99999; // float de 8 bytes -> 1.8e^308
+    
+    char letra = 'G';
+    boolean casado = false;
+
+    int ano = (int)1997; //typecast
+    float peso = (float)77.56;
+
+    // Wrapper Class -> classe que simula um tipo
+
+    String nome = new String("JAVA");
+
+  
