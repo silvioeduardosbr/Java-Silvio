@@ -19,3 +19,15 @@ Swing: Criar interface grafica para janelas.
 # extends -> Herança -> Tudo que Jframe tem, irá para a tela
 # private -> encapsulamento
 
+<<<<<<< HEAD
+=======
+=============================================================
+# Peoo - Java
+-> Problema do Espaguetti 
+-> Código estruturado com muitas funçõs e arquivos
+-> Herdar código que ja foi criado
+
+## Classe -> Cria Objetos
+-> Objetos -- Entidade com atributos, métodos e estados
+-> 
+>>>>>>> db4e318ee83e34ff0a2328efd2b06fc99b6a0dff
