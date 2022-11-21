@@ -1,0 +1,12 @@
+## JSF - Java Server Faces
+# Framework para desenvolvimento web em java
+# Padrão para desenvolvimento de sistemas web em Java
+
+-> MVC : Model View Controller
+-> Aplicações Web != Sites 
+    >> Sistemas web corporativos, rh, etc.
+    >> Não recomendado para desenvolvimento de sites, porém é usado.
+
+-> Principais características:
+    >> Componentes de User Interface (UI) nativo;
+    >> 

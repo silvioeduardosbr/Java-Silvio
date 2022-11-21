@@ -19,9 +19,6 @@ Swing: Criar interface grafica para janelas.
 # extends -> Herança -> Tudo que Jframe tem, irá para a tela
 # private -> encapsulamento
 
-<<<<<<< HEAD
-=======
-=============================================================
 # Peoo - Java
 -> Problema do Espaguetti 
 -> Código estruturado com muitas funçõs e arquivos
@@ -30,4 +27,16 @@ Swing: Criar interface grafica para janelas.
 ## Classe -> Cria Objetos
 -> Objetos -- Entidade com atributos, métodos e estados
 -> 
->>>>>>> db4e318ee83e34ff0a2328efd2b06fc99b6a0dff
+
+## Operador ternário
+-> resultado = (condicao) ? verdadeiro:falso;
+-> switch(var){
+        case 1:
+            ...
+        case 2:
+            ...
+    }
+}
+
+-> array: int[] valores = null; # referencia nula
+    >> int[] valores = new int[qtd]
