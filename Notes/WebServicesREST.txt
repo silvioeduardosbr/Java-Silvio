@@ -53,4 +53,23 @@ estao conectados indiretamente a internet, atraves do provedor.
 
 # SOAP - Simple Object Acesso Protocol
 -> Protocolo de comunicação usando XML
+
+#REST
+-> 
+
+# Escala RESTful
+.0
+-> Verbos nao sao usados de maneira correta
+-> URI unica
+
+.1
+-> Verbos incorretos
+-> Multiplas URIS
+
+.2
+-> Verbos Corretos
+-> Multiplas URIS
+
+.3
+-> REST "puro"
 -> 
