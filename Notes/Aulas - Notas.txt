@@ -30,6 +30,10 @@ realizar operações avançadas.
    -> Interpretador: Converte o bytecode do JAVA em linguagem de máquina.
    -> Gerenciador de Mem.: Vai gerenciar a memória da VM.
    -> JIT Compiler: Compilador Just in Time melhora a performace da JVM.
+   -> Sua	aplicação roda sem NENHUM envolvimento com o sistema operacional,	 sempre	 conversando
+   apenas com	a Java Virtual Machine (JVM).
+   -> Não entende código java, apenas bytecode, gerado por um java compiler;
+   
  >> Libs
 
 # Tipos Primitivos

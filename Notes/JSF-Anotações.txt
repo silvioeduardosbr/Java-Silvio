@@ -1,12 +1,77 @@
 ## JSF - Java Server Faces
 # Framework para desenvolvimento web em java
 # Padrão para desenvolvimento de sistemas web em Java
+#  
 
--> MVC : Model View Controller
+### MVC : Model View Controller
+    >> Padrão usado para separar a lógica da Interface;
+    >> 
+
+    >> Client: Interação do usuário no front (navegador): 
+        > Faz requisições para o servidor passando pelo controller;
+        
+    >> Model: Camada de modelo ou lógica da aplicação
+        > Dados da aplicação, regras de negócio;
+        > Apenas espera chamadas de funções;
+        > Modela e resolve o problema core da solução;
+        > É responsavel por interagir com o banco de dados;
+
+
+    >> View: Orienta a visão dos dados
+        > De acordo com as ações do controller, diferentes views sao
+        apresentadas para o usuário;
+        > Uma view também pode gerar uma ação do controller;
+        > 
+
+    >> Controller: 
+        > Face Servlet: classe java usada para herdar funcionalidades de um
+        servidor.
+        > Inicia o servlet -> Qualquer requisição feita ao server passa pelo
+         controller.
+        > Pode chamar diretamente o Model
+    
+    ## Ajax: uso de js e xml/json para tornar paginas web mais interativas;
+
+
 -> Aplicações Web != Sites 
     >> Sistemas web corporativos, rh, etc.
     >> Não recomendado para desenvolvimento de sites, porém é usado.
 
 -> Principais características:
     >> Componentes de User Interface (UI) nativo;
+    >> Componentes visuais estão relacionados com dados do servidor;
+    >> Suporte a Ajax
+
+
+### WEB
+Sites Estáticos:
+-> Navegador: Acesso ao servidor;
+    >> Faz requisição ao servidor atraves do protocolo htpp;
+    >> Em sites estaticos*, recebe e renderiza o resultado das requisicoes
+    em tempo de execução;
+-> Servidor: Hospeda o que aparece no navegador;
+    >> Recebe requisição http do navegador e responde com um html oriundo 
+    de um hard disk do servidor;
+-> Http: Protocolo de comunicação entre o cliente e o servidor, apos
+    estabelecer uma conexão TCP-IP, por padrao na porta 80;
+    >> Código 200 -> requisição com sucesso;
+
+Sites Dinâmicos:
+-> Navegador: Acesso ao servidor;
+    >> Faz requisição ao servidor atraves do protocolo htpp;
+    >> O request dispara uma ação no servidor que responde com um html 
+    dinâmico: aceesar um bd, autorizar um login, instanciar uma classe, etc;
+    >> Diferentemente do sistema estático, o response não é apenas um 
+    arquivo no disco do servidor, mas sim o resultado de uma ação solicitada
+    ao servidor que sera gravada em um html;
     >> 
+
+-> Servidor: Hospeda o que aparece no navegador;
+    >> Recebe requisição e o http do navegador responde com um 
+    html gerado dinamicamente;
+
+-> Http: Protocolo de comunicação entre o cliente e o servidor, apos
+    estabelecer uma conexão TCP-IP, por padrao na porta 80;
+    >> Código 200 -> requisição com sucesso;
+    >> Protocolo stateless, não mantem estado, requisições "sem identidade";
+
