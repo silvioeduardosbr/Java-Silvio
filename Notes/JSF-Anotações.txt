@@ -75,3 +75,23 @@ Sites Dinâmicos:
     >> Código 200 -> requisição com sucesso;
     >> Protocolo stateless, não mantem estado, requisições "sem identidade";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
