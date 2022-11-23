@@ -1,8 +1,30 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import java.util.Scanner;
+=======
+import javax.print.attribute.standard.MediaSize.JIS;
+import javax.swing.InputMap;
+>>>>>>> c77a4fff18bf9b39448e3290b5ed065cba079b1f
+>>>>>>> af50b06491b583bb31f12cbf10cef9b03b270213
 
 public class HelloWorld { 
     public static void main(String[] args) {
         
+<<<<<<< HEAD
+        Scanner input = new Scanner(System.in);
+
+        String nome = input.nextLine();
+        float nota = input.nextFloat();
+
+        System.out.format("A nota do %s é %.2f", nome, nota); // print linha
+       // System.out.printf("A sua nota é %.2f", nota); // print formatado
+        // System.out.format("A sua nota é %.2f", nota); // mesma coisa
+
+        
+=======
         int a = 100;
+>>>>>>> c77a4fff18bf9b39448e3290b5ed065cba079b1f
 
         int[] arr = new int[5]; // array simples
 
