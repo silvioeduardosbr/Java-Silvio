@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-import java.util.Scanner;
-=======
-import javax.print.attribute.standard.MediaSize.JIS;
-import javax.swing.InputMap;
->>>>>>> c77a4fff18bf9b39448e3290b5ed065cba079b1f
->>>>>>> af50b06491b583bb31f12cbf10cef9b03b270213
 
 public class HelloWorld { 
     public static void main(String[] args) {
@@ -24,8 +15,7 @@ public class HelloWorld {
         
 =======
         int a = 100;
->>>>>>> c77a4fff18bf9b39448e3290b5ed065cba079b1f
-
+        
         int[] arr = new int[5]; // array simples
 
         int[][] arr2 = new int [3][3]; // matriz 3x3
