@@ -57,4 +57,9 @@ realizar operações avançadas.
 
     String nome = new String("JAVA");
 
-  
+  ## Modificadores de acesso
+    -> private: apenas métodos dentro da classe podem acessar;
+    -> public: métodos de classes externas podem modificar variáveis
+    ou chamar métodos public;
+
+    

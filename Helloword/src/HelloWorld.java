@@ -1,19 +1,21 @@
+import java.util.Scanner;
 
 public class HelloWorld { 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         
-<<<<<<< HEAD
-        Scanner input = new Scanner(System.in);
 
-        String nome = input.nextLine();
-        float nota = input.nextFloat();
+        try (Scanner input = new Scanner(System.in)) {
+            String nome = input.nextLine();
+            float nota = input.nextFloat();
 
-        System.out.format("A nota do %s é %.2f", nome, nota); // print linha
-       // System.out.printf("A sua nota é %.2f", nota); // print formatado
-        // System.out.format("A sua nota é %.2f", nota); // mesma coisa
+            System.out.format("A nota do %s é %.2f", nome, nota); // print linha
+      // System.out.printf("A sua nota é %.2f", nota); // print formatado
+            // System.out.format("A sua nota é %.2f", nota); // mesma coisa
+        }
 
-        
-=======
         int a = 100;
         
         int[] arr = new int[5]; // array simples
