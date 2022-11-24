@@ -6,6 +6,10 @@
 realizar operações avançadas.
 # Desenvolvimento de aplicações do lado do servidor que deram sucesso ao java.
 
+# Paradigma OO:
+  > Proporciona maior simplicidade em criar conexão entre dados e funções;
+  > O que é dificil no paradigma estruturado, pois não ha um bom encapsulamento;*
+
 # O código gerado pelo java não é executável na máquina:
         > É um bytecode: código gerado pelo compilador java para a JVM.
         > Pode ser lido por qualquer JVM em qualquer S.O.
