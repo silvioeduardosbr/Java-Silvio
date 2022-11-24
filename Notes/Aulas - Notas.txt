@@ -57,9 +57,12 @@ realizar operações avançadas.
 
     String nome = new String("JAVA");
 
-  ## Modificadores de acesso
-    -> private: apenas métodos dentro da classe podem acessar;
-    -> public: métodos de classes externas podem modificar variáveis
-    ou chamar métodos public;
+## Modificadores de acesso
+  -> private: apenas métodos dentro da classe podem acessar;
+  -> public: métodos de classes externas podem modificar variáveis
+  ou chamar métodos public;
 
-    
+## Listas
+  -> ArrayList: usar mais quando for armazenar e acessar dados;
+  -> LinkedList: usar para manipulação de dados;
+  
