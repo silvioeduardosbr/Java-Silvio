@@ -5,6 +5,7 @@ public class Conta{
     private String resolucaoTela;
 
     
+    
     void entrar(){
         buscarPreferenciasUsuario();
         ididentificarResolucao();

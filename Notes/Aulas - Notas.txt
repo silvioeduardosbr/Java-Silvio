@@ -70,3 +70,35 @@ realizar operações avançadas.
   -> ArrayList: usar mais quando for armazenar e acessar dados;
   -> LinkedList: usar para manipulação de dados;
   
+## Métodos Static x Public
+  -> Métodos static podem ser acessados sem instanciar objetos;
+    >> Basta apenas chamar o método;
+
+  -> Méodos public apenas podem ser acessados por meio de objetos;
+    >> É preciso instanciar o objeto da classe, e então chamar o método
+    que estará associado àquele objeto;
+
+# Construtor da classe
+  -> Método Especial utilizado para inicializar objetos;
+  -> Seta valoes iniciais assim que o objeto é instanciado;
+
+# Modificadores de acesso
+  # Classes
+  -> public - a classe é acessível a qualquer outra classe.
+  -> default - a classe é acesssível a outras do mesmo pacote. Padrão;
+  
+  # Atributos, Métodos e Construtores
+  -> public - código acessivel por qualquer classe;
+  -> private - código apenas acessivel pela classe declarada
+  -> protected - código acessivel dentro do pacote e subclasses
+
+# Modificadores de Não-acesso
+  # Classes
+    -> final - a classe nao pode ser herdada;
+    -> abstract - a classe nao pode ser usada para criar objetos;
+      > deve ser apenas herdada por outras classes;
+    
+  # Métodos e Atributos
+    -> final - Atributos e métodos nao podem ser sobrescritos; "constantes"
+    -> static -
+    -> abstract - pode apenas ser usado por classes abstratas
