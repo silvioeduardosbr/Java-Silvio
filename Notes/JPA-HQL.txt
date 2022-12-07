@@ -1,0 +1,30 @@
+# Problema:
+  -> Dificuldade de relacionar sistemas OO com SGBDs;
+  -> Fazer as queries e os objetos na mão;
+  -> Traduzir a entidade relacional em um objeto;
+  -> 30% do esforço de desenvolvimento era somente para 
+  programar a camada de acesso aos dados;
+
+# Outros Problemas:
+  -> Programar o Contexto da Persistência:
+    >> Objetos que estão ou não atrelados a uma conexão em dado
+    momento;
+
+  -> Mapa de Identidade: Cache dos objetos que ja foram  carregados do sgbd;
+
+  -> Carregamento Tardio: carregar somente a entidade buscada e não as suas dependências;
+	-> ETC.
+
+# JPA - Java Persistence API:
+  -> É a especificação da plataforma Java EE (pacote javax.persistence) para o maepamento das entidades do banco e persistencia de dados;
+
+# Classes JPA:
+  ->> EntityManager: encapsula uma conexão com o bd, além de proporcionar acesso no mesmo contexto de persistência.
+   -> Monitora as entidades em um mesmo contexto proporcionando funções de acesso;
+   -> Cada requisição é tipicamente monitorada por um EntityManeger.
+
+  ->> EntityManagerFactory: Utilizado para instanciar objetos EntityManeger.
+
+    -> Tipicamente toda a aplicação necessita apenas de um EntityManagerFactory para instanciar os objetos EntityManager.
+
+

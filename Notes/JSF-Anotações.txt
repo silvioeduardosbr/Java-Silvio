@@ -1,11 +1,11 @@
 ## JSF - Java Server Faces
-# Framework para desenvolvimento web em java
-# Padrão para desenvolvimento de sistemas web em Java
-#  
+# Framework para desenvolvimento web em java;
+# Padrão para desenvolvimento de sistemas web em Java;
+# Cria um componente e ele se liga no backend do servidor;
 
 ### MVC : Model View Controller
     >> Padrão usado para separar a lógica da Interface;
-    >> 
+    >> JSF é MVC, i.e., utiliza o padrao MVC. 
 
     >> Client: Interação do usuário no front (navegador): 
         > Faz requisições para o servidor passando pelo controller;
@@ -75,6 +75,7 @@ Sites Dinâmicos:
     >> Código 200 -> requisição com sucesso;
     >> Protocolo stateless, não mantem estado, requisições "sem identidade";
 
+-> 
 
 
 

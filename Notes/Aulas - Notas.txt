@@ -102,3 +102,8 @@ realizar operações avançadas.
     -> final - Atributos e métodos nao podem ser sobrescritos; "constantes"
     -> static -
     -> abstract - pode apenas ser usado por classes abstratas
+
+
+
+## JPA e Hibernate
+  -> 
